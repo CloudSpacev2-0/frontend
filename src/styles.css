@@ -11,3 +11,9 @@ button:hover { background: #106ebe; }
 table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; }
 th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid #e6ecf3; }
 th { background: #e8f1fb; }
+.coupon { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 12px 0; }
+.coupon input { padding: 8px; border: 1px solid #d6dee8; border-radius: 6px; min-width: 160px; }
+.coupon button { padding: 8px 16px; }
+.coupon button:disabled { background: #9db9d3; cursor: not-allowed; }
+.ok { color: #107c10; }
+.error-text { color: #d13438; }
